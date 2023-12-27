@@ -1,24 +1,16 @@
-@media all and (max-width: 1199px){
+@media all and (max-width: 1199px) {}
 
-}
+@media all and (max-width: 991px) {}
 
-@media all and (max-width: 991px){
-	
-}
-
-@media all and (max-width: 767px){
-    .social_home { 
-        right: 33px; 
+@media all and (max-width: 767px) {
+    .social_home {
+        right: 33px;
     }
-    .home_main_area{
-        background: url(../images/home/bg.png) no-repeat scroll center center / cover; 
+    .home_main_area {
+        background: url(../images/home/bg.png) no-repeat scroll center center / cover;
     }
 }
 
-@media all and (max-width: 575px){
-	
-}
+@media all and (max-width: 575px) {}
 
-@media all and (max-width: 450px){
-	
-}
+@media all and (max-width: 450px) {}
