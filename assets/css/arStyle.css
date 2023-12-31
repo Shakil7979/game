@@ -1,0 +1,631 @@
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'FreeSans';
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li a,
+a {
+    text-decoration: none;
+}
+
+.ar_mainBody{
+    background: url('../images/game-ui/bg.png') no-repeat scroll 0 0 / cover; 
+}
+.main_container_wrapper{
+    padding: 50px 0px;
+
+}
+.arMobileBars2{
+    display: none;
+}
+.arMobileBars1{
+    display: block;
+}
+ /*======================  Start Header area CSS ======================*/
+
+.ar_header_area_section{
+    background: url('../images/game-ui/menu-bg.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 20px 0px 35px 0px;
+}
+.ar_header_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.ar_header_navbar{
+    flex: 0 0 80%;
+}
+.ar_header_navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.ar_header_navbar ul li{
+    list-style-type: none;
+}
+.ar_header_navbar ul li a{
+    display: inline-block;
+    color: #616f9e;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+}
+.ar_header_navbar ul li a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.ar_header_bars{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 20%;
+}
+.ar_header_bars a{
+    margin-left: 30px;
+}
+.ar_header_bars a img{
+    width: 25px;
+} 
+.ar_header_bars{
+    position: relative;
+}
+.ar_header_bars::after {
+	content: "";
+	position: absolute;
+	background-color: #2f395f;
+	top: -8px;
+	left: 34%;
+	width: 2px;
+	height: 40px;
+}
+ /*======================  end Header area CSS ======================*/
+
+
+
+ /*======================  Start Fortune area CSS ======================*/
+
+.ar_main_content_area_wrapper{
+    padding: 50px 0px;
+}
+.ar_heading_area_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ar_heading_title_back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arTitle_plus_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ar_heading_title_back a.ar_back img{
+    width: 80px;
+    margin-right: 20px;
+}
+.ar_heading_title_back h3{
+    color: #fbfbfb;
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.ar_heading_title_back a img{
+    width: 30px;
+}
+.arTitle_plus_img img {
+	width: 140px;
+}
+.arTitle_plus_img{
+    position: relative;
+    display: inline-block;
+}
+.arTitle_plus_img p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	margin-bottom: 0px;
+}
+.arTitle_plus_img p.one152{
+    top: 15px;
+}
+ 
+
+
+/* item-area */
+.ar_item_area_section{
+    margin-bottom: 50px;
+}
+.ar_item_area{
+    padding: 40px;
+    padding-bottom: 0px;
+    background: url('../images/game-ui/itemBG.png') no-repeat scroll 0 0 / 100% 100%; 
+}
+.ar_item_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    
+}
+.ar_single_item_img img{
+    width: 100%;
+}
+.ar_singnle_iteam_area{
+    flex: 0 0 31%;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.ar_single_item_cont {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	top: 25px;
+	left: 30px;
+}
+.ar_single_item_cont_img > img{
+    width: 100px;
+    margin-right: 60px;
+}
+.ar_single_item_cont_title h5{
+    color: #0f0f0f;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ar_item_overly {
+	background: url('../images/game-ui/itemHover.png') no-repeat scroll 0 0 / cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ar_item_overly_cont h2{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.ar_item_overly_cont p{
+    color: #ffde7b;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.ar_item_overly_cont p b{
+    color: #70ff59;
+}
+.ar_item_overly{
+    display: none;
+}
+.ar_singnle_iteam_area:hover .ar_item_overly,
+.ar_singnle_iteam_area .ar_item_overly.active{
+    
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*======================  End Fortune area CSS ======================*/
+
+
+/*======================  Start Chat area CSS ======================*/
+.ar_message_messenger_box_wrapper{
+    background: url('../images/game-ui/messenger.png') no-repeat scroll 0 0 / 100% 100%; 
+    padding: 30px 20px 30px 40px;
+  
+    display: inline-block;
+}
+.ar_messenger_scroll_box{
+    position: relative;
+}
+.ar_message_scroll_cont h3 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 600;
+	position: absolute;
+	top: 9px;
+	right: 95px;
+}
+.ar_message_scroll_cont p {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	position: absolute;
+	bottom: 20px;
+	right: 95px;
+	text-shadow: 1px 2px #000;
+}
+.ar_messenger_scroll_box,
+.ar_messenger_scroll_boxNotification{
+    margin-bottom: 20px;
+}
+.ar_messenger_scroll_box img,
+.ar_messenger_scroll_boxNotification img{
+    width: 100%;
+}
+.ar_single_chatList img{
+    width: 100%;
+}
+.ar_message_notification_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.ar_message_notification_cont p {
+	color: #fefefe;
+	font-size: 16px;
+	font-weight: 400;
+	position: absolute;
+	top: -43px;
+	left: 38px;
+}
+.ar_message_notification_cont p span{
+    color: #f4bc26;  
+}
+.ar_message_notification_cont p a.tagWhite{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.ar_message_tag a{
+    color: #f45226;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.ar_message_tag a:last-child{
+    color: #60f426;
+}
+.ar_message_tag{
+    position: absolute;
+    top: -43px;
+	right: 38px;
+}
+.ar_message_messenger_box{
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin-right: 2px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+.ar_message_messenger_box_wrapper{
+    padding-bottom: 100px;
+    position: relative;
+}
+.ar_message_messenger_box_wrapper > p {
+	color: #fdfeff;
+	font-size: 18px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 18px;
+	right: 65px;
+}
+
+.ar_message_chatList{
+    background: url('../images/game-ui/chatWrap.png') no-repeat scroll 0 0 / 100% 100%; 
+    padding: 30px 30px 30px 30px;
+}
+.ar_chatList_title_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.ar_chatList_title_name h4{
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ar_chatList_title_name h4 span{
+    color: #58be14;
+}
+.ar_chatList_title_name h4.h4First{
+    position: relative;
+}
+.ar_chatList_title_name h4.h4First::after {
+	content: "";
+	position: absolute;
+	background-color: #0d0d0d;
+	top: 0;
+	right: -45px;
+	width: 1px;
+	height: 30px;
+}
+.ar_chatlist_btn_area{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ar_chatlist_btn{
+    position: relative;
+    display: inline;
+}
+.ar_chatlist_btn p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 13px;
+    right: 50px;
+    text-shadow: 1px 2px #000;
+    cursor: pointer;
+}
+.ar_chatlist_btn:first-child p{
+    color: #0d0d0d;
+    text-shadow: none;
+    right: 95px;
+}
+.ar_chat_friendList_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ar_single_chatList{
+    margin-bottom: 20px;
+    position: relative;
+}
+.ar_singleChatList_name p{
+    color: #fffbfb;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ar_singleChatList_name p span{
+    color: #70ff59;
+}
+.ar_singleChatList_name p.arHours{
+    color: #9b9b9b;
+}
+.ar_singleChatList_name p:first-child {
+	position: absolute;
+	top: 10px;
+	left: 55px;
+}
+.ar_singleChatList_name p:last-child {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+.ar_chat_friendList_wrapper {
+	height: 345px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	/* margin-right: 2px; */
+	/* padding-right: 30px; */
+	/* padding-bottom: 100px; */
+}
+.chatingMeassFLex{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.ar_message_messenger_box_wrapper{
+    flex: 0 0 60%;
+}
+.ar_message_chatList{
+    flex: 0 0 35%;
+}
+/*======================  End Chat area CSS ======================*/
+
+
+
+
+
+
+
+
+/*======================  Start Footer area CSS ======================*/
+
+.ar_footer_area_section{
+    padding: 80px 0px;
+    background: url('../images/game-ui/footer.png') no-repeat scroll 0 0 / 100% 100%; 
+    position: relative;
+    z-index: 9999;
+}
+.ar_ooter_logo a img{
+    width: 200px;
+}
+.ar_footer_area_logo{
+    display: flex;
+    align-items: flex-start;
+}
+.ar_ooter_logo{
+    margin-right: 50px;
+}
+.ar_footer_social_icon{
+    padding-top: 10px;
+}
+.ar_footer_social_icon h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+.ar_footer_icon{
+    display: flex;
+    margin-top: 20px;
+}
+.ar_footer_icon a{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: #FDC939;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   margin-right: 20px;
+}
+.ar_footer_icon a i{
+    color: #000;
+    font-size: 26px;
+}
+.ar_footer_area_cont h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+.ar_footer_area_cont p {
+	color: #37426F;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.ar_footer_area_cont{
+    position: relative;
+}
+.ar_footer_area_cont::after {
+	content: "";
+	position: absolute;
+	background-color: #37426F;
+	width: 1px;
+	height: 120px;
+	top: 10px;
+	left: -90px;
+}
+/*======================  End Footer area CSS ======================*/
+
+
+
+
+
+/*====================== Start Select area CSS ======================*/
+.ar_heading_area_nav{
+    padding-top: 50px;
+}
+
+.ar_selectImg img{
+    width: 150px;
+}
+
+.ar_selectImg:first-child img{
+    width: 65px;
+}
+.ar_select_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+.ar_single_select_item{
+    flex: 0 0 15%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.ar_single_select_item img{
+    width: 100%;
+}
+.ar_select_img_cont {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 14px;
+	padding: 0px 20px;
+	width: 90%;
+}
+.ar_select_img_cont p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.ar_select_img_cont p span{
+    color: #58ff31;
+}
+/*======================  End Select area CSS ======================*/
+
+
+
+/*======================  Start Hospital area CSS ======================*/
+.ar_hospital_area_section{
+    margin-bottom: 50px;
+}
+.ar_hospital_area{
+    position: relative;
+}
+.ar_hospital_area img{
+    width: 100%;
+}
+.ar_hospital_recovery img{
+    width: 130px;
+}
+.ar_hospital_recovery {
+	position: absolute;
+	top: 93px;
+	left: 35%;
+}
+.ar_hotpita_btnCoin {
+	position: absolute;
+	top: 19%;
+	right: 26%;
+}
+.ar_hotpita_btnCoin img {
+	width: 170px;
+	display: block;
+}
+.ar_hotpita_btnCoin img:last-child {
+	margin-top: -50px;
+}
+.ar_hospital_item_single{
+    display: flex;
+    align-items: center;
+}
+.ar_hospital_item_single {
+	position: absolute;
+	bottom: 85px;
+	left: 100px;
+}
+.ar_hospital_item_single img {
+	width: 130px;
+	margin-right: 15px;
+}
+/*======================  End Hospital area CSS ======================*/
+
+
