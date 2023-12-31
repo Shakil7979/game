@@ -1,10 +1,8 @@
 $(document).ready(function() {
     // Mobile Menu
-    // $('.logo a i').click(function(){
-    // 	$('.menu ul').slideToggle(1000);
-
-    // 	return false
-    // });
+    $('.menu_close').click(function(){
+    	$('.menu_expression').hide(); 
+    });
 
     // Banner Carousel
     // $('.banner_carousel').owlCarousel({
