@@ -163,3 +163,73 @@
 
 
  /*======================  Home area  ======================*/
+ 
+
+.menu_expression {
+	background: url(../images/menu/menu-popup-bg.png) no-repeat scroll center center / cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999999;
+    height: 100%;
+}
+
+.menu_ul ul li a p {
+	color: #616f9e;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 22px;
+}
+
+.main_box{ 
+    height: 500px;
+}
+
+.menu_ul ul li a  img{ 
+	width: 100%;
+}
+
+.menu_ul ul li a {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.menu_ul ul {
+	display: flex;
+	gap: 29px;
+	justify-content: center; 
+	flex-wrap: wrap;
+}
+
+.menu_ul ul li { 
+	flex: 0 0 31%; 
+}
+
+.menu_main h3 {
+	font-size: 60px;
+	text-align: center; 
+	font-weight: 700;
+	color: #fff;
+	margin: 68px;
+}
+
+.menu_main{
+    position: relative;
+}
+
+.menu_close {
+	position: absolute;
+	top: 21px;
+	right: 44px;
+}
+
+ /*======================  Home area  ======================*/
+
+
