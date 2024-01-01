@@ -590,6 +590,16 @@
     .ar_steal_btn_single_item p {
         font-size: 14px;
     }
+    .ar_town_carousel_wrapper .owl-next {
+        position: absolute;
+        right: -10px;
+        top: auto;
+    }
+    .ar_town_carousel_wrapper .owl-prev {
+        position: absolute;
+        left: -10px;
+        top: auto;
+    }
     
 }
 

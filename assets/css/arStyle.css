@@ -993,9 +993,48 @@ a {
 	top: 90px;
 	left: 170px;
 }
-.arStealSingle{
-    /* flex: 0 0 33 */
-}
+
 /*======================  End Race Invite area CSS ======================*/
+
+
+
+/*======================  Start Town area CSS ======================*/
+.ar_town_area{
+    background:url('../images/town/bg-content.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 30px;
+}
+.ar_town_carousel_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ar_singe_town_itwm img{
+    width: 100%;
+}
+.ar_town_carousel_wrapper.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+	display: block;
+}
+.ar_town_carousel_wrapper.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+	color: #FFF;
+	text-decoration: none;
+}
+.ar_town_carousel_wrapper button:focus {
+	outline: none;
+}
+.ar_town_carousel_wrapper button img{
+    width: 40px;
+}
+.ar_town_carousel_wrapper .owl-next {
+	position: absolute;
+	right: -60px;
+	top: 37%;
+}
+.ar_town_carousel_wrapper .owl-prev {
+	position: absolute;
+	left: -60px;
+	top: 37%;
+}
+/*======================  End Town area CSS ======================*/
 
 
