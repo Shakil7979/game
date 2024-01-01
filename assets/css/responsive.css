@@ -1,6 +1,27 @@
-@media all and (max-width: 1199px) {}
+@media all and (max-width: 1335px) {
+    .modal_close { 
+        right: 34%; 
+    }
+}
 
-@media all and (max-width: 991px) {}
+@media all and (max-width: 1199px) {
+    .menu_ul ul li a p { 
+        top: 14px;
+    }
+    .modal_close {
+        right: 31%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .menu_ul ul li a p {
+        top: 13px;
+        font-size: 16px;
+    }
+    .modal_close {
+        right: 24%;
+    }
+}
 
 @media all and (max-width: 767px) {
     .social_home {
@@ -9,8 +30,43 @@
     .home_main_area {
         background: url(../images/home/bg.png) no-repeat scroll center center / cover;
     }
+    .menu_ul ul li a p {
+        top: 5px;
+        font-size: 16px;
+    }
+    .modal_close {
+        right: 15%;
+    }
 }
 
-@media all and (max-width: 575px) {}
+@media all and (max-width: 575px) {
+    .menu_ul ul li {
+        flex: 0 0 100%;
+    }
+    .menu_ul ul li a p {
+        top: 34px;
+        font-size: 22px;
+    }
+    .main_box {
+        height: 100vh;
+    }
+    .modal_close {
+        right: 12%;
+    }
+    .modal_btn img {
+        width: 100%; 
+    }
+    .modal_button a p { 
+        font-size: 26px; 
+    }
+}
 
-@media all and (max-width: 450px) {}
+@media all and (max-width: 450px) {
+    .modal_close {
+        right: 10%;
+        top: 50px;
+    }
+    .modal_button a p { 
+        top: 89px; 
+    }
+}
