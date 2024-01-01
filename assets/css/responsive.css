@@ -1,3 +1,9 @@
+@media all and (max-width: 1400px) {
+    .modal_area { 
+        padding: 50px 0 150px 0; 
+    }
+}
+
 @media all and (max-width: 1335px) {
     .modal_close { 
         right: 34%; 
