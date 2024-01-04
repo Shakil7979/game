@@ -43,5 +43,27 @@ $(document).ready(function(){
         }
     })
 
+
+    // create carousel
+    $('.ar_create_carousel_wrapper').owlCarousel({
+      items:7,
+      dots:false,
+      loop:true,
+      margin:20,
+      nav:true,
+      navText:["<img src='assets/images/create/cl.png'>","<img src='assets/images/create/cr.png'>"],
+      responsive:{
+          
+          0:{
+            items:2
+          },
+          600:{
+              items:4
+          },
+          1000:{
+              items:7
+          }
+      }
+  })
       
 })

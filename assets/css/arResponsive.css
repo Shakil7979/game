@@ -27,6 +27,12 @@
     .ar_steal_btn_single_item.last p {
         top: 17px;
     }
+    .ar_pokebag_left_area img {
+        width: 115px;
+    }
+    .ar_pokebag_right_area img {
+        width: 115px;
+    }
 }
 
 @media all and (max-width:1199px){
@@ -153,6 +159,12 @@
     }
     .ar_steal_btn_single_item h5 {
         font-size: 16px;
+    }
+    .ar_pokebag_left_area img {
+        width: 110px;
+    }
+    .ar_pokebag_left_area {
+        padding: 20px;
     }
 }
 @media all and (max-width:991px){
@@ -342,6 +354,45 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     }
+    .ar_pvp_title h3 {
+        font-size: 22px;
+    }
+    .ar_pvp_character_area img {
+        width: 60px;
+    }
+    .ar_pvp_character_area.last{
+        justify-content: flex-end;
+    }
+    .arPokebag_twoColum {
+        flex-direction: column;
+    }
+    .ar_pokebag_left_area {
+        margin-bottom: 25px;
+    }
+    .ar_pokebag_rightWrapper {
+        padding: 30px 20px;
+    }
+    .ar_pokebag_left_area {
+        justify-content: flex-start;
+    }
+    .ar_pokebag_left_area img {
+        margin-right: 20px;
+    }
+    .ar_pokebag_left_area {
+        margin-right: 0px;
+    }
+    .ar_pokebag_right_area img {
+        width: 105px;
+    }
+    .ar_pokedex_area_left {
+        padding: 30px 20px 34px 20px;
+    }
+    .arPokedex_wrapper_itam img {
+        width: 85px;
+    }
+    .ar_pokedex_area_right {
+        padding: 30px 20px 50px 20px;
+    }
 }
 
 
@@ -480,6 +531,42 @@
     .ar_stealBtn_area > img {
         height: 175px;
     }
+    .ar_create_single_btn img{
+        width: 100%;
+    }
+    .ar_creat_btn_cont {
+        top: 11px;
+    }
+    .ar_create_carousel_wrapper button img {
+       display: none;
+    }
+    .ar_pokebag_left_area img {
+        width: 90px;
+    }
+    .ar_pokebag_left_area {
+        justify-content: center;
+    }
+    .ar_pokebag_right_area img {
+        width: 90px;
+    }
+    .ar_pokebag_right_area {
+        justify-content: center;
+    }
+    .arPokedex_wrapper_itam img {
+        width: 68px;
+    }
+    .ar_pokedex_prcent_btn img {
+        width: 100px;
+    }
+    .ar_pokedexLeft_parcent img {
+        width: 85px;
+    }
+    .ar_pokedex_area_left h4 {
+        font-size: 16px;
+    }
+    .ar_pokedex_item_wrapper_area a {
+        font-size: 20px;
+    }
 }
 
 
@@ -600,6 +687,29 @@
         left: -10px;
         top: auto;
     }
+    .ar_create_btn_area {
+        flex-wrap: wrap;
+    }
+    .ar_create_single_btn {
+        margin-bottom: 15px;
+    }
+    .ar_creat_btn_cont {
+        top: 20px;
+    }
+    .ar_pokedex_area_left {
+        padding: 20px 10px;
+    }
+    .ar_pokedex_area_right {
+        padding: 20px 10px;
+    }
+    .arPokedex_areaScrool {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .arPokedex_wrapper_itam img {
+        width: 70px;
+        margin-right: 5px;
+    }
     
 }
 
@@ -686,6 +796,13 @@
     }
     .ar_steal_btn_single_item.last p {
         top: 13px;
+    }
+    .ar_create_single_btn {
+        width: 175px;
+    }
+    .ar_creat_btn_cont {
+        top: 10px;
+        left: 30px;
     }
     
 }

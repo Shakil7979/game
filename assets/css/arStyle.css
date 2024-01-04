@@ -1038,3 +1038,227 @@ a {
 /*======================  End Town area CSS ======================*/
 
 
+
+/*======================  Start Create area CSS ======================*/
+.ar_create_carousel_wrapper{
+    margin: 50px 0px;
+}
+.ar_create_carousel_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ar_create_carosel_single{
+    width: 100%;
+}
+.ar_create_btn_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ar_creat_btn_cont p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+.ar_create_single_btn{
+    position: relative;
+}
+.ar_creat_btn_cont {
+	position: absolute;
+	top: 18px;
+	left: 40px;
+}
+.ar_creat_btn_cont{
+    width: 100%;
+}
+.ar_creat_btn_cont select{
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+.ar_create_carousel_wrapper.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+	color: #FFF;
+	text-decoration: none;
+}
+.ar_create_carousel_wrapper button:focus {
+	outline: none;
+}
+.ar_create_carousel_wrapper button img{
+    width: 40px;
+}
+.ar_create_carousel_wrapper .owl-next {
+	position: absolute;
+	top: 130px;
+	left: 58%;
+}
+.ar_create_carousel_wrapper .owl-prev {
+	position: absolute;
+	top: 130px;
+	right: 56.5%;
+}
+
+
+/*======================  End Create CSS ======================*/
+
+
+
+/*======================  Start Pokedex CSS ======================*/
+.ar_pokedex_area{
+    background: url('../images/pokedex/bg-content.png') no-repeat scroll 0 0 / 100% 100%;
+
+}
+.ar_pokedex_area_left{
+    padding: 30px 20px 50px 50px;
+}
+.ar_pokedex_area_left h4:first-child{
+    color: #555b60;
+    padding-bottom: 5px;
+}
+.ar_pokedex_area_left h4{
+    color: #ba0000;
+    font-size: 22px;
+    font-weight: 600;
+}
+.ar_pokedexLeft_parcent{
+    margin: 30px 0px;
+}
+.ar_pokedexLeft_parcent img{
+    width: 100px;
+}
+.ar_pokedex_prcent_btn{
+    display: flex;
+    flex-direction: column;
+}
+.ar_pokedex_prcent_btn img{
+    width: 120px;
+    margin-bottom: 15px;
+}
+.ar_pokedex_area{
+    display: flex;
+}
+.ar_pokedex_area_left{
+    flex: 0 0 18%;
+    border-right: 1px solid #939393;
+}
+.ar_pokedex_area_right{
+    padding: 30px 20px 50px 50px;
+}
+.ar_pokedex_item_wrapper_area a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.ar_pokedex_item_wrapper_area a{
+    color: #0a0a0a;
+    font-size: 22px;
+    font-weight: 700;
+}
+.arPokedex_wrapper_itam{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.arPokedex_wrapper_itam img {
+	width: 100px;
+	margin-right: 14px;
+	margin-bottom: 15px;
+	flex: 0 0 15%;
+}
+.arPinkicon{
+    margin-top: 30px;
+}
+.arPokedex_areaScrool{
+    overflow-y: scroll;
+    height: 520px;
+    scrollbar-width: thin;
+    margin-right: 35px;
+    padding-right: 30px;
+}
+/*======================  End Pokedex CSS ======================*/
+
+
+
+
+/*====================== Start Pokebag CSS ======================*/
+.ar_pokebag_left_area{
+    background: url('../images/pokedex/bg-content.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ar_pokebag_left_area img{
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.ar_pokebag_rightWrapper{
+    background: url('../images/pokebag/bgContentRight.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 30px 40px;
+    padding-right: 10px;
+    
+}
+.ar_pokebag_right_area img{
+    width: 140px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.arPokebag_twoColum{
+    display: flex;
+    justify-content: space-between;
+}
+.ar_pokebag_left_area{
+    flex: 0 0 30%;
+    margin-right: 30px;
+}
+.ar_pokebag_right_area {
+	overflow-y: scroll;
+	height: 545px;
+	scrollbar-width: thin;
+	margin-right: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*======================  End Pokebag CSS ======================*/
+
+
+
+
+/*====================== Start PVP CSS ======================*/
+.ar_pvp_area{
+    background: url('../images/pvp/pvpbgc.png') no-repeat scroll 0 0 / 100% 100%;
+    padding:100px 50px;
+}
+.ar_pvp_title h3{
+    color: #fefefe;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+}
+.arPVP_area_wrapper_area{
+    display: flex;
+    justify-content: space-between;
+}
+.ar_pvp_character_area {
+	display: flex;
+	margin-top: 20px;
+	max-width: 290px;
+    width: 100%;
+	flex-wrap: wrap;
+}
+.ar_pvp_character_area img{
+    width: 80px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.ar_pvp_title.right h3{
+    text-align: right;
+}
+/*====================== End PVP CSS ======================*/
+
