@@ -1,3 +1,12 @@
+@media all and (max-width: 1400px) {
+    .modal_area { 
+        padding: 50px 0 150px 0; 
+    }
+    .modal_close { 
+        right: 386px; 
+    }
+}
+
 @media all and (max-width: 1335px) {
     .modal_close { 
         right: 34%; 
@@ -68,5 +77,728 @@
     }
     .modal_button a p { 
         top: 89px; 
+    }
+}
+
+
+
+
+
+/* Ar Responsive  */
+
+@media all and (max-width:1399px){
+    .ar_hospital_recovery img {
+        width: 85px;
+    }
+    .ar_hospital_recovery {
+        top: 101px;
+        left: 37%;
+    }
+    .ar_hospital_item_single img {
+        width: 106px;
+    }
+    .ar_hospital_item_single {
+        bottom: 78px;
+        left: 90px;
+    }
+    .ar_raceInvite_banner_cont {
+        top: 75px;
+    }
+    .ar_raceinvoice_single_item > img {
+        width: 200px;
+        height: 68px;
+    }
+    .ar_steal_btn_single_item > img {
+        width: 155px;
+        height: 60px;
+    }
+    .ar_steal_btn_single_item.last p {
+        top: 17px;
+    }
+}
+
+@media all and (max-width:1199px){
+    .ar_single_item_cont_img img{
+        width: 65px;
+    }
+    .ar_single_item_cont {
+        top: 22px;
+        left: 20px;
+    }
+    .ar_single_item_cont_title h5 {
+        font-size: 16px;
+    }
+    .ar_item_overly_cont h2 {
+        font-size: 35px;
+    }
+    .ar_item_overly_cont p {
+        font-size: 16px;
+    }
+    .ar_ooter_logo a img {
+        width: 150px;
+    }
+    .ar_footer_social_icon h2 {
+        font-size: 22px;
+    }
+    .ar_footer_icon a {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .ar_footer_icon a i {
+        font-size: 22px;
+    }
+    .ar_footer_area_cont h2 {
+        font-size: 22px;
+    }
+    .ar_footer_area_cont:after {
+        left: -50px;
+    }
+    .ar_message_scroll_cont h3 {
+        font-size: 16px;
+        top: 5px;
+        right: 70px;
+    }
+    .ar_message_scroll_cont p {
+        font-size: 14px;
+        bottom: 17px;
+        right: 70px;
+    }
+    .ar_message_notification_cont p {
+        font-size: 14px;
+        top: -30px;
+    }
+    .ar_message_notification_cont p a.tagWhite {
+        font-size: 14px;
+    }
+    .ar_message_tag a {
+        font-size: 14px;
+    }
+    .ar_message_tag {
+        top: -32px;
+    }
+    .ar_singleChatList_name p {
+        font-size: 14px;
+    }
+    .ar_chatlist_btn a img{
+        width: 100%;
+    }
+    .ar_chatList_title_name h4 {
+        font-size: 16px;
+    }
+    .ar_chatList_title_name h4.h4First:after {
+        display: none;
+    }
+    .ar_message_chatList {
+        padding: 30px 10px 30px 10px;
+    }
+    .ar_chat_friendList_wrapper {
+        padding-right: 20px;
+    }
+    .ar_single_select_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 18%;
+                flex: 0 0 18%;
+    }
+    .ar_hospital_recovery {
+        top: 80px;
+        left: 36%;
+    }
+    .ar_hospital_item_single img {
+        width: 85px;
+    }
+    .ar_hospital_item_single {
+        bottom: 65px;
+        left: 80px;
+    }
+    .ar_raceinvoice_single_item > img {
+        width: 160px;
+        height: 55px;
+    }
+    .ar_raceInvoice_btn_single {
+        top: 14px;
+    }
+    .ar_raceinvoice_single_item p {
+        top: 15px;
+    }
+    .ar_raceinvoice_single_item.last:after {
+        height: 35px;
+    }
+    .ar_raceInvite_banner_cont.ar_stealCont {
+        top: 45px;
+    }
+    .ar_steal_btn_single_item p b{
+        display: block;
+    }
+    .ar_steal_btn_single_item.after:after {
+        top: 1px;
+    }
+    .ar_steaBtn_single {
+        top: 10px;
+    }
+    .ar_steal_btn_single_item p {
+        font-size: 16px;
+    }
+    .ar_steal_btn_single_item h5 {
+        font-size: 16px;
+    }
+}
+@media all and (max-width:991px){
+    .ar_header_area_section{
+        position: relative;
+    }
+    .ar_header_navbar{
+        display: none;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        background-color: #08133E;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        top: 65px;
+    }
+ 
+    .ar_header_navbar ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+        
+        -webkit-box-pack: start;
+        
+            -ms-flex-pack: start;
+        
+                justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 20px;
+    }
+    .arMobileBars2{
+        display: block;
+    }
+    .arMobileBars1{
+        display: none;
+    }
+    .ar_header_area {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+    }
+    .ar_header_bars:after {
+        display: none;
+    }
+    .ar_heading_title_back h3 {
+        font-size: 35px;
+    }
+    .ar_heading_title_back a.ar_back img {
+        width: 55px;
+    }
+    .ar_heading_title_back a img {
+        width: 20px;
+    }
+    .arTitle_plus_img img {
+        width: 110px;
+    }
+    .arTitle_plus_img p {
+        font-size: 12px;
+        top: 16px;
+        left: 30px;
+    }
+    .arTitle_plus_img p.one152 {
+        top: 11px;
+    }
+
+    .ar_singnle_iteam_area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 47%;
+                flex: 0 0 47%;
+    }
+
+    .ar_footer_area_cont {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .ar_footer_area_logo {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .ar_footer_area_cont:after {
+       display: none;
+    }
+    .chatingMeassFLex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_message_chatList {
+        margin-top: 35px;
+    }
+    .ar_messenger_scroll_box img, 
+    .ar_messenger_scroll_boxNotification img {
+        height: 80px;
+    }
+    .ar_message_notification_cont p {
+        top: -50px;
+    }
+    .ar_message_tag {
+        top: -55px;
+    }
+    .ar_message_messenger_box_wrapper {
+        padding: 30px 10px 30px 10px;
+        padding-bottom: 100px;
+    }
+    .ar_single_select_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 22%;
+                flex: 0 0 22%;
+    }
+    .ar_hospital_item_single img {
+        width: 60px;
+    }
+    .ar_hospital_item_single {
+        bottom: 50px;
+        left: 65px;
+    }
+    .ar_hospital_recovery img {
+        width: 55px;
+    }
+    .ar_hospital_recovery {
+        top: 58px;
+        left: 36%;
+    }
+    .ar_hotpita_btnCoin img {
+        width: 135px;
+    }
+    .ar_raceInvite_banner_cont {
+        top: 40px;
+        left: 100px;
+    }
+    .ar_raceinvoice_single_item > img {
+        width: 115px;
+        height: 40px;
+    }
+    .ar_raceinvoice_single_item p {
+        font-size: 14px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 10px;
+    }
+    .ar_raceinvoice_single_item h3 {
+        font-size: 14px;
+    }
+    .ar_raceinvoice_radio .form-check label {
+        font-size: 14px;
+    }
+    .ar_raceinvoice_radio .form-check {
+       margin-top: 0px;
+    }
+    .ar_raceInvoice_btn_single {
+        top: 9px;
+    }
+    .ar_raceinvoice_single_item.last:after {
+       display: none;
+    }
+    .ar_stealCont p {
+        padding-bottom: 5px;
+        font-size: 14px;
+    }
+    .ar_stealCont h5 {
+        font-size: 14px;
+    }
+    .ar_steal_btn_single_item.after:after {
+       display: none;
+    }
+    .ar_stealBtn_area > img {
+        height: 110px;
+    }
+    .ar_steaBtn_single {
+        top: 20px;
+    }
+    .ar_steal_btn_single_item h5 {
+        margin-right: 5px;
+        width: auto;
+    }
+    .ar_stealBtn_area {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+
+
+@media all and (max-width:767px){
+    .ar_heading_area_top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_heading_title_back {
+        margin-bottom: 20px;
+    }
+    .ar_item_area {
+        -webkit-column-gap: 25px;
+           -moz-column-gap: 25px;
+                column-gap: 25px;
+    }
+    .ar_single_item_cont {
+        top: 17px;
+        left: 20px;
+    }
+    .ar_single_item_cont_img img{
+        width: 50px;
+    }
+    .ar_single_item_cont_img > img {
+        margin-right: 10px;
+    }
+    .ar_single_item_cont_title h5 {
+        font-size: 14px;
+    }
+    .ar_item_overly_cont h2 {
+        font-size: 25px;
+    }
+    .ar_item_overly_cont p {
+        font-size: 14px;
+    }
+    .ar_footer_area_logo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+    .ar_ooter_logo {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .ar_footer_social_icon {
+        text-align: center;
+    }
+    .ar_footer_icon a {
+        width: 40px;
+        height: 40px;
+    }
+    .ar_footer_icon a i {
+        font-size: 18px;
+    }
+    .ar_messenger_scroll_box img, 
+    .ar_messenger_scroll_boxNotification img {
+        height: 70px;
+    }
+    .ar_footer_icon a {
+        margin: 0px 5px;
+    }
+
+    .ar_single_select_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 30%;
+                flex: 0 0 30%;
+    }
+    .ar_hospital_item_single img {
+        width: 40px;
+    }
+    .ar_hospital_item_single {
+        bottom: 40px;
+        left: 47px;
+    }
+    .ar_hotpita_btnCoin img {
+        width: 125px;
+    }
+    .ar_hotpita_btnCoin {
+        right: 14%;
+    }
+    .ar_hospital_recovery {
+        top: 38px;
+    }
+    .ar_raceInvite_banner_cont h5,
+    .ar_raceInvite_banner_cont p {
+        font-size: 14px;
+    }
+    .ar_raceInvite_banner_cont {
+        top: 25px;
+        left: 65px;
+        text-align: left;
+    }
+    .ar_raceInvite_btn_area > img {
+        height: 115px;
+    }
+    .ar_raceinvoice_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        margin-bottom: 15px;
+    }
+    .ar_raceInvoice_btn_single {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .ar_raceinvoice_radio {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .ar_raceInvite_area > img {
+        height: 400px;
+    }
+    .ar_raceInvite_banner_cont.ar_stealCont {
+        top: 25px;
+        padding-right: 25px;
+    }
+    .ar_stealCont h5, 
+    .ar_stealCont p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .ar_stealBanner_area img {
+        height: 90px;
+    }
+    .arStealSingle {
+        margin-bottom: 10px;
+    }
+    .ar_stealBtn_area > img {
+        height: 175px;
+    }
+}
+
+
+
+@media all and (max-width:575px){
+    .ar_singnle_iteam_area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    .ar_item_overly_cont p {
+        padding: 0px 10px;
+    }
+    .ar_single_item_cont {
+        top: 24px;
+        left: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .ar_single_item_img img {
+        width: 100%;
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+    }
+    .ar_single_item_img{
+        text-align: center;
+    }
+    .ar_item_overly {
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .ar_single_item_cont_img img {
+        width: 75px !important;
+    }
+    .ar_single_item_cont_img {
+        padding-right: 15px;
+    }
+    .ar_message_notification_cont {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_message_tag {
+        top: -65px;
+    }
+    .ar_message_notification_cont p {
+        top: -40px;
+    }
+    .ar_message_notification_cont p {
+        right: 37px !important;
+        text-align: right;
+    }
+    .ar_message_messenger_box {
+        padding-right: 15px;
+    }
+    .ar_footer_social_icon h2 {
+        font-size: 20px;
+    }
+    .ar_footer_area_cont h2 {
+        font-size: 20px;
+    }
+    .ar_footer_area_cont {
+        margin-top: 35px;
+    }
+    .ar_single_select_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 47%;
+                flex: 0 0 47%;
+    }
+    .ar_hospital_recovery img {
+        width: 35px;
+    }
+    .ar_hospital_recovery {
+        top: 50px;
+        left: 37%;
+    }
+    .ar_hospital_area > img {
+        width: 100%;
+    }
+    .ar_hospital_item_single {
+        bottom: 47px;
+        left: 32px;
+    }
+    .ar_hospital_item_single img {
+        width: 35px;
+    }
+    .ar_hospital_recovery {
+        top: 50px;
+        left: 37%;
+    }
+    .ar_hotpita_btnCoin {
+        right: 20%;
+    }
+    .ar_hospital_area {
+        text-align: center;
+    }
+    .ar_steal_btn_single_item p {
+        font-size: 14px;
+    }
+    .ar_town_carousel_wrapper .owl-next {
+        position: absolute;
+        right: -10px;
+        top: auto;
+    }
+    .ar_town_carousel_wrapper .owl-prev {
+        position: absolute;
+        left: -10px;
+        top: auto;
+    }
+    
+}
+
+
+
+@media all and (max-width:450px){
+    .ar_heading_title_back h3 {
+        font-size: 30px;
+    }
+    .ar_heading_title_back a.ar_back img {
+        width: 45px;
+    }
+    .ar_heading_title_back a img {
+        width: 15px;
+    }
+    .ar_single_item_cont_img img {
+        width: 55px !important;
+    }
+    .ar_single_item_cont {
+        top: 27px;
+        left: 0;
+    }
+    .ar_message_scroll_cont p {
+        width: 220px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .ar_message_notification_cont p {
+        width: 250px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .ar_message_scroll_cont p {
+        bottom: 4px;
+    }
+    .ar_hospital_item_single {
+        bottom: 25px;
+        left: 32px;
+    }
+    .ar_hotpita_btnCoin {
+        right: 5%;
+    }
+    .ar_hospital_recovery {
+        top: 28px;
+    }
+    .ar_hospital_item_single > img {
+        width: 25px;
+    }
+    .ar_raceInvite_banner_cont {
+        top: 18px;
+        left: 50px;
+        padding-right: 15px;
+    }
+    .ar_raceInvite_banner_area img {
+        height: 80px;
+    }
+    .ar_stealBanner_area img {
+        height: 100px;
+    }
+    .arStealSingle100 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        text-align: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .arStealSingle {
+        margin-bottom: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_steal_btn_single_item.last.arStealSingle {
+        margin-top: 20px;
+    }
+    .ar_steal_btn_single_item > img {
+        width: 130px;
+        height: 50px;
+    }
+    .ar_steal_btn_single_item.last p {
+        top: 13px;
+    }
+    
+}
+
+
+@media all and (max-width:340px){
+    .ar_single_item_cont {
+        top: 17px;
+    }
+    .ar_single_select_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .ar_hospital_item_single img {
+        width: 26px;
+    }
+    .ar_hospital_recovery img {
+        width: 25px;
+    }
+    .ar_hospital_item_single {
+        bottom: 20px;
+        left: 18px;
+    }
+    .ar_hotpita_btnCoin {
+        top: 10%;
     }
 }
