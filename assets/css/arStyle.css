@@ -5,6 +5,7 @@ html {
 
 body {
     font-size: 16px;
+    font-size: 16px;
     font-size: 1.6rem;
     font-weight: 400;
     font-family: 'FreeSans';
@@ -1004,9 +1005,15 @@ a {
     padding: 30px;
 }
 .ar_town_carousel_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .ar_singe_town_itwm img{
     width: 100%;
@@ -1044,17 +1051,29 @@ a {
     margin: 50px 0px;
 }
 .ar_create_carousel_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .ar_create_carosel_single{
     width: 100%;
 }
 .ar_create_btn_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .ar_creat_btn_cont p{
     font-size: 18px;
@@ -1132,18 +1151,27 @@ a {
     width: 100px;
 }
 .ar_pokedex_prcent_btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .ar_pokedex_prcent_btn img{
     width: 120px;
     margin-bottom: 15px;
 }
 .ar_pokedex_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .ar_pokedex_area_left{
-    flex: 0 0 18%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 18%;
+            flex: 0 0 18%;
     border-right: 1px solid #939393;
 }
 .ar_pokedex_area_right{
@@ -1159,16 +1187,23 @@ a {
     font-weight: 700;
 }
 .arPokedex_wrapper_itam{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-top: 20px;
 }
 .arPokedex_wrapper_itam img {
 	width: 100px;
 	margin-right: 14px;
 	margin-bottom: 15px;
-	flex: 0 0 15%;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 15%;
+	        flex: 0 0 15%;
 }
 .arPinkicon{
     margin-top: 30px;
@@ -1189,9 +1224,14 @@ a {
 .ar_pokebag_left_area{
     background: url('../images/pokedex/bg-content.png') no-repeat scroll 0 0 / 100% 100%;
     padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .ar_pokebag_left_area img{
     width: 140px;
@@ -1210,11 +1250,17 @@ a {
     margin-right: 20px;
 }
 .arPokebag_twoColum{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .ar_pokebag_left_area{
-    flex: 0 0 30%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
     margin-right: 30px;
 }
 .ar_pokebag_right_area {
@@ -1222,8 +1268,11 @@ a {
 	height: 545px;
 	scrollbar-width: thin;
 	margin-right: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 /*======================  End Pokebag CSS ======================*/
 
@@ -1242,15 +1291,22 @@ a {
     font-style: italic;
 }
 .arPVP_area_wrapper_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .ar_pvp_character_area {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 20px;
 	max-width: 290px;
     width: 100%;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 .ar_pvp_character_area img{
     width: 80px;
@@ -1261,4 +1317,1076 @@ a {
     text-align: right;
 }
 /*====================== End PVP CSS ======================*/
+
+
+
+/*====================== Start Battle CSS ======================*/
+.ar_batte_area{
+    background: url('../images/battle/battle.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 30px 30px 20px 30px;
+}
+.ar_battle_area_top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.arBattle_left_cont p{
+    color: #eaebec;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ar_battle_left_text img{
+    width: 350px;
+}
+.ar_battle_left_text{
+    position: relative;
+}
+.arBattle_left_cont {
+	position: absolute;
+	left: 70px;
+	top: 7px;
+}
+.ar_battle_left_hp_area{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.ar_battleTop_right.right .ar_battle_left_hp_area{
+    margin-top: 10px;
+}
+.ar_battle_left_hp_area img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ar_battle_left_hp_text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 15px;
+}
+.ar_battle_left_hp_text p{
+    color: #eaebec;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ar_battle_left_hp_text p span{
+    color: #58ff31;
+}
+.ar_battleTop_middle p{
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.ar_battleTop_middle p span{
+    color: #ffc323;
+    font-size: 35px;
+    font-weight: 700;
+}
+.ar_battleTop_middle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.ar_battle_bottom_run img{
+    width: 50px;
+}
+.ar_battle_area_bottom{
+    text-align: right;
+}
+.ar_battle_bottom_btnAct{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 20px;
+}
+.ar_battle_btom_single{
+    margin-left: 5px;
+}
+.ar_battle_btom_single img{
+    width: 100%;
+}
+.ar_battle_btom_single p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.ar_battle_btom_single.red p{
+    color: #eaebec;
+}
+.ar_battle_btom_single{
+    position: relative;
+}
+.ar_battle_btom_single p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 18px;
+    text-align: center;
+}
+.ar_battle_bottom_bottm{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.ar_battle_single_bottom img{
+    width: 100%;
+}
+.ar_battle_single_bottom{
+    position: relative;
+}
+.ar_battle_single_bottom p{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/*====================== End Battle CSS ======================*/
+
+
+
+
+/*====================== Start Poke Profile CSS ======================*/
+.ar_pokeprofile_area{
+    background: url('../images/pokeProfile/pokeProfileBG.png') no-repeat scroll 0 0 / 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.ar_pokeProfile_left_area{
+    padding: 20px 70px 20px 50px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+}
+.arPokeprofile_left_top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10px;
+}
+.arPokeprofile_right_top_btn img{
+    width: 100%;
+}
+.arPokeprofile_right_top_btn{
+    position: relative;
+}
+.arPokeprofile_right_top_btn p{
+    color: #e6e6e6;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.arPokeprofile_right_top_btn.single p{
+    top: 18px;
+}
+.arPokeprofile_right_top_btn span{
+    display: block;
+    color: #ffc601;
+    margin-top: -3px;
+}
+.arPokeprofile_arrow_area{
+    margin: 50px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.arPokeprofile_arrow_area img{
+    width: 40px;
+}
+.arPokeProfile_skils_status{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 13px;
+}
+.arPokeProfile_skils_status img{
+    width: 120px;
+}
+.arPokeProfile_hpArea{
+    /* padding: 30px 0px; */
+}
+.arPokeProfile_hpArea{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 0px;
+}
+.ar_pokeprofile_level{
+    margin-right: 30px;
+    position: relative;
+}
+.ar_pokeprofile_level img{
+    width: 100%;
+}
+.ar_pokeprofile_level_HP img{
+    width: 230px;
+}
+.ar_pokeprofile_level p{
+    font-size: 18px;
+    color: #e6e6e6 ;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.ar_pokeprofile_level p span{
+    color: #58ff31;
+}
+
+.ar_pokeProfile_right_area{
+    padding: 30px 0px;
+}
+.ar_pokeProfile_right_top a{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 600;
+}
+.ar_pokeProfile_right_top a img{
+    width: 25px;
+    margin-right: 20px;
+}
+.ar_pokeprofile_table_area{
+    background:url('../images/pokeProfile/blackBG.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 2px 30px;
+    margin-top: 20px;
+}
+.ar_pokeProfile_right_area{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding-right: 25px;
+}
+.ar_pokeProfile_single_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+.ar_pokeProfile_single_wrapper a{
+    color: #dbdbdb;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    display: inline-block;
+    padding: 15px 0px;
+}
+.ar_pokeProfile_single_wrapper a span{
+    font-weight: 700;
+}
+.ar_pokeProfile_single_wrapper a img{
+    margin-right: 10px;
+}
+.ar_pokeProfile_right_top.top{
+    margin-top: 30px;
+}
+.ar_pokeProfile_right_single_cont{
+	height: 400px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	margin-right: 2px;
+	padding-right: 30px;
+	padding-bottom: 100px;
+}
+/*====================== End Poke Profile CSS ======================*/
+
+
+
+
+/*====================== Start Main Page CSS ======================*/
+.ar_mainPage_wrapper {
+	background: url('../images/mainPage/character.png') no-repeat scroll 0 0 / 100% 100%;
+	background-size: 34%;
+	background-position: 54% center;
+}
+.ar_mainTop_text p{
+    color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 2px 2px #0d0d0d;
+}
+.ar_mainTop_text p span{
+    color: #fec222;
+}
+.ar_mainTop_text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 200px;
+}
+.ar_mainTop_text p > img{
+    width: 12px;
+    margin-right: 5px;
+}
+.ar_mainPage_topHeader > img{
+    width: 200px;
+    margin-top: 10px;
+}
+.ar_mainPageLeft_parchent_top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.ar_mainPage_wrapper .second{
+    margin-top: 50px;
+}
+.ar_mainPageLeft_parchent_top_img img{
+    width: 150px;
+}
+.ar_mainPageLeft_parchent_top_img{
+    margin-right: 10px;
+}
+.ar_mainPageLeft_parchent_top_text h4{
+    color: #292929;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ar_mainPageLeft_parchent_top_text span{
+    color: #d71e1e;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+.ar_mainPageLeft_parchent_top_img{
+    position: relative;
+}
+.ar_mainPageLeft_parchent_top_text {
+	position: absolute;
+	top: 11px;
+	left: 48px;
+	right: 0;
+	text-align: center;
+}
+.ar_mainPage_textBtn_img{
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+.ar_mainPage_textBtn_img img{
+    width: 250px;
+}
+.ar_mainPage_textBtn_img_cont p{
+    color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 2px 2px #0d0d0d;
+    text-align: left;
+}
+.ar_mainPage_textBtn_img_cont p span{
+    color: #ffc851;
+}
+.ar_mainPage_textBtn_img_cont {
+	position: absolute;
+	top: 9px;
+	left: 65px;
+	right: 0;
+	text-align: center;
+}
+.ar_mainPage_textBtn_img_text{
+    position: relative;
+    display: inline-block;
+}
+.ar_mainPage_textBtn_img_text p{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.ar_mainPage_blok{
+    display:block;
+    margin-top: 15px;
+}
+.ar_mainPage_textBtn_img_text img{
+    width: 300px;
+}
+.ar_mainPage_textBtn_img_text p{
+    color: #fbfaf7;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 2px 2px #0d0d0d;
+}
+.ar_mainPage_textBtn_img_text p a{
+    text-decoration: underline;
+    color: #fbfaf7;
+}
+.ar_mainPage_textBtn_img_text p span{
+    color: #ffc851;
+}
+.ar_mainpage_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.ar_right_mainpage_social_icon_area img {
+	width: 55px;
+	height: 55px;
+}
+.ar_mainpage_right_lavel {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-right: 20px;
+}
+.ar_mainpage_right_lavel p{
+    color: #fbfaf7;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 2px 2px #0d0d0d;
+    margin: 0px 15px;
+}
+.ar_mainpage_right_lavel p img{
+    width: 15px;
+    margin-right: 5px;
+}
+.ar_mianpage_right_lavel_btn_area{
+    margin-top: 100px;
+}
+.ar_mainpage_right_lavel_btnBig img{
+    width: 170px;
+    margin-top: 10px;
+}
+.ar_mainpage_right_lavel_btnBig{
+    position: relative;
+    text-align: right;
+}
+.ar_mainpage_right_lavel_btnBig p {
+	color: #fbfaf7;
+	font-size: 14px;
+	font-weight: 700;
+	text-shadow: 2px 2px #0d0d0d;
+	position: absolute;
+	top: 20px;
+	left: 61px;
+	right: 0px;
+	text-align: center;
+}
+.ar_mainPage_bottom_area h3{
+    color: #fbfaf7;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 2px 2px #0d0d0d;
+}
+.ar_mainPage_bottom_persion{
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.ar_mainPage_bottom_persion img{
+    width: 200px;
+}
+
+/*====================== End  Main Page CSS ======================*/
+
+
+
+
+/*====================== Start Shop CSS ======================*/
+.ar_shop_area_left{
+    background: url('../images/shop/shopbg.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 30px 20px;
+}
+.ar_shop_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+}
+.ar_shop_area_left{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+            flex: 0 0 15%;
+}
+.ar_shop_nav_single a img{
+    width: 190px;
+}
+.ar_shop_nav_single{
+    margin-bottom: 10px;
+}
+.ar_shop_nav_single{
+    position: relative;
+}
+.ar_shop_nav_single p {
+	color: #ffffff;
+	font-weight: 700;
+	text-shadow: 2px 2px #0d0d0d;
+	font-size: 14px;
+	position: absolute;
+	top: 22px;
+	left: -5px;
+	right: 0;
+	text-align: center;
+    cursor: pointer;
+}
+.ar_shop_nav_single.topup p{
+    color: #000000;
+	text-shadow: 2px 2px transparent;
+}
+.ar_shop_item_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    height: 455px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin-right: 2px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+.ar_shop_single_item{
+    position: relative;
+    margin-bottom: 20px;
+}
+.ar_shop_single_item img{
+    width: 170px;
+}
+.ar_shop_in_cont img{
+    width: 75px;
+}
+.ar_shop_in_cont img{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+.ar_shop_in_cont p {
+	color: #0f0f0f;
+	font-size: 16px;
+	font-weight: 700;
+	top: 100px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	position: absolute;
+}
+.ar_shop_bottom_cont span {
+	color: #ffffff;
+	font-weight: 700;
+	/* text-shadow: 2px 2px #0d0d0d; */
+	font-size: 14px;
+	position: absolute;
+	bottom: 79px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.ar_shop_bottom_cont p {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 12px;
+	position: absolute;
+	bottom: 19px;
+	left: 43px;
+	right: 0;
+}
+/*====================== End  Shop Page CSS ======================*/
+
+
+
+
+
+/*====================== Start Work CSS ======================*/
+.ar_work_area {
+	background: url('../images/work/bg-content.png') no-repeat scroll 0 0 / 100% 100%;
+	padding: 15px 30px;
+	padding-right: 50px;
+}
+.ar_single_item_table_work{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+.ar_work_single_text.heading{
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ar_work_single_text{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+}
+.ar_work_single_text.text{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 35%;
+            flex: 0 0 35%;
+}
+.ar_work_single_text.gold{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 15%;
+            flex: 0 0 15%;
+}
+.ar_work_single_text.check{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%;
+    text-align: right;
+}
+.ar_work_single_text{
+    padding: 30px 35px;
+}
+.ar_single_item_table_work.hard {
+	background: url('../images/work/hard-work.png') no-repeat scroll 0 0 / 100% 100%;
+	/* background-size: 100%; */
+	
+}
+.ar_single_item_table_work.easy{
+    background: url('../images/work/easy-work.png') no-repeat scroll 0 0 / 100% 100%;
+}
+.ar_single_item_table_work.normal{
+    background: url('../images/work/normal-work.png') no-repeat scroll 0 0 / 100% 100%;
+}
+.ar_single_item_table_work{
+    margin-bottom: 20px;
+}
+.ar_work_single_text img{
+    width: 25px;
+}
+.ar_work_single_text p{
+    color: #271200;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ar_single_item_table_work.hard .ar_work_single_text p span{
+    color: #f51010;
+    font-weight: 500;
+}
+.ar_single_item_table_work.easy .ar_work_single_text p span{
+    color: #2b67ff;
+    font-weight: 500;
+}
+.ar_single_item_table_work.normal .ar_work_single_text p span{
+    color: #7d7d7d;
+    font-weight: 500;
+}
+.ar_work_single_text.gold img{
+    width: 15px;
+    margin-right: 5px;
+}
+.ar_work_single_text.heading p{
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ar_workFlex_wrapper{
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin-right: 2px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+.ar_work_single_text.heading{
+    padding: 10px 35px;
+}
+.ar_work_btn{
+    padding: 20px 0px 10px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.ar_work_single_btn img{
+    width: 70%;
+}
+.ar_work_single_btn{
+    position: relative;
+    display: inline;
+}
+.ar_work_btn_xont p {
+	color: #d9d9d9;
+	font-size: 16px;
+	font-weight: 700;
+	position: absolute;
+	top: 10px;
+	left: -35px;
+	right: 0;
+	text-align: center;
+}
+/*====================== End  Work CSS ======================*/
+
+
+
+/*====================== Start My Profile CSS ======================*/
+
+
+.ar_myProfile_itam_wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+}
+.ar_myProfile_single_item{
+    background: url('../images/myAccount/optionsBg.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 20px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+}
+.ar_myProfile_sinle_title a{
+    color: #0a0a0a;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.ar_myProfile_sinle_title a img{
+    width: 25px;
+    margin-right: 15px;
+}
+.ar_myProfile_sinlge_switch_area{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+/* codepenn start*/
+.toggle-label {
+	position: relative;
+	display: block;
+	width: 85px;
+	height: 40px;
+	margin-top: 8px;
+	border: 1px solid #c6bdbd;
+	margin: 10px auto;
+	border-radius: 28px;
+}
+  .toggle-label input[type=checkbox] { 
+    opacity: 0; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .toggle-label input[type=checkbox]+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-transition: background 150ms linear;
+    transition: background 150ms linear; 
+    border-radius: 28px; 
+  }
+  .toggle-label input[type=checkbox]:checked+.back .toggle{
+    border-radius: 0px 28px 28px 0px;
+  }
+  .toggle-label input[type=checkbox]:checked+.back {
+    background: #fff; /*green*/
+  }
+  
+  .toggle-label input[type=checkbox]+.back .toggle {
+    display: block;
+    position: absolute;
+    content: ' ';
+    background: #FFD12F;
+    width: 50%; 
+    height: 100%;
+    -webkit-transition: margin 150ms linear;
+    transition: margin 150ms linear;
+    border: 1px solid #fff;
+    border-radius: 0;
+    border-radius: 28px 0px 0px 28px;
+    /* background: url('../images/myAccount/switch.png') no-repeat scroll 0 0 / 100% 100%; */
+  }
+  .toggle-label input[type="checkbox"]:checked + .back .toggle {
+	margin-left: 42px;
+}
+  .toggle-label .label {
+    display: block;
+    position: absolute;
+    width: 50%;
+    color: #ddd;
+    line-height: 80px;
+    text-align: center;
+    font-size: 2em;
+  }
+  .toggle-label .label.on {
+	left: 0px;
+	top: -19px;
+	font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+}
+  .toggle-label .label.off {
+    right: 0px;
+	top: -19px;
+	font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+}
+  
+  .toggle-label input[type=checkbox]:checked+.back .label.on {
+    color: #000;
+    font-weight: 700;
+  }
+  .toggle-label input[type=checkbox]+.back .label.off {
+    color: #000;
+    font-weight: 700;
+  }
+  .toggle-label input[type=checkbox]:checked+.back .label.off {
+    color: #000;
+    font-weight: 700;
+  }
+
+
+
+
+  .toggle-label.big_toggle_label {
+	width: 300px;
+	height: 50px;
+}
+.toggle-label input[type="checkbox"]:checked + .back .toggle.ar_toggle {
+	margin-left: 148px;
+}
+.toggle-label .label.on.ar_on {
+	top: -15px;
+}
+.toggle-label .label.off.ar_off {
+	top: -15px;
+}
+/* codepenn   */
+
+
+
+.ar_myProfile_sinlge_text p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.ar_myProfile_swithc_area{
+    padding: 20px 0px;
+}
+.ar_myProfile_range_area{
+    padding: 20px 0px;
+}
+.ar_myProfile_range_text{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.ar_myProfile_range_text p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-range::-moz-range-thumb {
+	width: 8px;
+	width: .8rem;
+	height: 15px;
+	height: 1.5rem;
+	background-color: #FFD12F;
+}
+.form-range::-moz-range-track {
+	width: 100%;
+	height: 5px;
+	height: .5rem;
+	color: transparent;
+	cursor: pointer;
+	background-color: #0a0a0a;
+}
+.form-range:focus::-moz-range-thumb {
+	box-shadow: 0 0 0 1px #fff, 0 0 0 .2rem #FFD12F;
+}
+.ar_myProfile_btn{
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+.ar_myProfile_btn img{
+    width: 125px; 
+}
+.ar_myProfile_btn_text p{
+    color: #d9d9d9;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.ar_myProfile_btnCont_single img{
+    width: 90%;
+    text-align: center;
+}
+.ar_myProfile_btnCont_single {
+	text-align: center;
+    position: relative;
+    margin: 20px;
+}
+.ar_myProfile_btnCont_text p{
+    color: #d9d9d9;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+.ar_myProfile_select_area .form-select {
+    background: url('../images/myAccount/dropdown.png') no-repeat;
+	background-position: 5%;
+	text-align: right;
+    /* padding: 28px 10px; */
+    border-radius: 28px;
+    background-color: #0C1945;
+    color: #565a63;
+    font-size: 16px;
+    font-weight: 700;
+    height: 55px;
+
+}
+.ar_myProfile_select_area .form-select:focus {
+	border-color:transparent;
+	outline: 0;
+	box-shadow: 0 0 0 .2rem transparent;
+}
+.ar_myProfile_sinle_title{
+    margin-bottom: 30px;
+}
+.ar_myProfile_swithc_area {
+	padding-top: 0px;
+}
+.ar_myProfile_btn{
+    margin-top: 30px;
+}
+.ar_myProfile_range_area {
+	padding-bottom: 0px;
+}
+/*====================== End My Profile CSS ======================*/
 

@@ -33,7 +33,22 @@
     .ar_pokebag_right_area img {
         width: 115px;
     }
+    .ar_mainPage_bottom_persion img {
+        width: 160px;
+    }
+    .arPokeprofile_right_top_btn img {
+        width: 90%;
+    }
+    .arPokeprofile_right_top_btn.single p {
+        top: 15px;
+        left: -25px;
+    }
 }
+
+
+
+
+
 
 @media all and (max-width:1199px){
     .ar_single_item_cont_img img{
@@ -166,7 +181,76 @@
     .ar_pokebag_left_area {
         padding: 20px;
     }
+    .ar_battle_left_text img {
+        width: 290px;
+    }
+    .ar_battle_left_hp_area {
+        margin-left: 15px;
+    }
+    .ar_battle_left_hp_area img {
+        width: 65%;
+    }
+    .ar_battle_left_hp_text {
+        width: 200px;
+    }
+    .arBattle_left_cont p {
+        font-size: 12px;
+    }
+    .ar_battle_single_bottom p {
+        font-size: 16px;
+        top: 8px;
+    }
+    .ar_battle_single_bottom img {
+        width: 150px;
+    }
+    .ar_battle_btom_single img {
+        width: 125px;
+    }
+    .ar_battle_btom_single p {
+        font-size: 16px;
+        top: 13px;
+    }
+    .ar_battleTop_middle p span {
+        font-size: 20px;
+    }
+    .ar_battleTop_middle p {
+        font-size: 14px;
+    }
+    .ar_battle_left_hp_text {
+        margin-bottom: 10px;
+    }
+    .ar_mainPage_bottom_persion img {
+        width: 130px;
+    }
+    .ar_pokeProfile_right_top.top {
+        margin-top: 0px;
+    }
+    .arPokeprofile_right_top_btn img {
+        height: 50px;
+    }
+    .arPokeprofile_arrow_area img {
+        width: 30px;
+    }
+    .ar_work_area {
+        padding-right: 10px;
+    }
+    .ar_single_item_table_work.heading {
+        padding-right: 70px;
+    }
+    .ar_myProfile_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 31%;
+                flex: 0 0 31%;
+    }
+    .ar_myProfile_btnCont_text p {
+        font-size: 14px;
+        top: 10px;
+    }
 }
+
+
+
+
 @media all and (max-width:991px){
     .ar_header_area_section{
         position: relative;
@@ -361,10 +445,15 @@
         width: 60px;
     }
     .ar_pvp_character_area.last{
-        justify-content: flex-end;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
     }
     .arPokebag_twoColum {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .ar_pokebag_left_area {
         margin-bottom: 25px;
@@ -373,7 +462,9 @@
         padding: 30px 20px;
     }
     .ar_pokebag_left_area {
-        justify-content: flex-start;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
     .ar_pokebag_left_area img {
         margin-right: 20px;
@@ -393,7 +484,139 @@
     .ar_pokedex_area_right {
         padding: 30px 20px 50px 20px;
     }
+    .ar_battle_left_text img {
+        width: 215px;
+        height: 60px;
+    }
+    .arBattle_left_cont {
+        left: 30px;
+        top: 10px;
+    }
+    .ar_battle_single_bottom img {
+        width: 110px;
+    }
+    .ar_battle_single_bottom p {
+        font-size: 12px;
+        top: 6px;
+    }
+    .ar_battle_btom_single img {
+        width: 100px;
+    }
+    .ar_battle_btom_single p {
+        font-size: 14px;
+        top: 10px;
+    }
+    .ar_battle_bottom_bottm {
+        margin-right: 0px;
+    }
+    .ar_mainPage_bottom_persion img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 100px;
+    }
+    .ar_mainPageLeft_parchent_top_img img {
+        width: 120px;
+    }
+    .ar_mainPageLeft_parchent_top_text h4 {
+        font-size: 12px;
+    }
+    .ar_mainPageLeft_parchent_top_text span {
+        font-size: 12px;
+        display: inherit;
+    }
+    .ar_right_mainpage_social_icon_area img {
+        width: 45px;
+        height: 46px;
+    }
+    .ar_mainPage_textBtn_img img {
+        width: 200px;
+    }
+    .ar_mainPage_textBtn_img_cont p {
+        font-size: 12px;
+    }
+    .ar_mainPage_textBtn_img_cont {
+        top: 6px;
+        left: 50px;
+    }
+    .ar_mainPage_textBtn_img_text p {
+        font-size: 12px;
+        top:9;
+    }
+    .ar_mainPage_textBtn_img_text img {
+        width: 260px;
+    }
+    .ar_mainpage_right_lavel_btnBig p {
+        left: 25px;
+    }
+    .ar_mainpage_right_lavel p {
+        font-size: 12px;
+    }
+    .ar_pokeProfile_right_single_cont {
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+    .ar_pokeprofile_area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_pokeProfile_right_area {
+        background: #DEE1E8;
+        padding: 15px 25px;
+    }
+    .ar_pokeprofile_level {
+        display: none;
+    }
+    .ar_pokeProfile_right_top.top.second {
+        margin-top: 20px;
+    }
+    .ar_work_single_text.text {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+    }
+    .ar_work_single_text p {
+        font-size: 14px;
+    }
+    .ar_work_single_text.gold {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+    }
+    .ar_myProfile_itam_wrapper {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .ar_myProfile_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 48%;
+                flex: 0 0 48%;
+        margin-bottom: 30px;
+    }
+    .ar_myProfile_sinlge_text p {
+        font-size: 14px;
+    }
+    .ar_myProfile_btn img {
+        width: 115px;
+    }
+    .toggle-label.big_toggle_label.big_toggle_label {
+        width: 225px;
+        height: 40px;
+    }
+
 }
+
+
+
+
+
+
+
+
 
 
 @media all and (max-width:767px){
@@ -544,13 +767,17 @@
         width: 90px;
     }
     .ar_pokebag_left_area {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .ar_pokebag_right_area img {
         width: 90px;
     }
     .ar_pokebag_right_area {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .arPokedex_wrapper_itam img {
         width: 68px;
@@ -567,7 +794,121 @@
     .ar_pokedex_item_wrapper_area a {
         font-size: 20px;
     }
+    .ar_battle_area_top {
+        -ms-flex-wrap:wrap;
+            flex-wrap:wrap;
+    }
+    .ar_battle_left_hp_area {
+        margin-left: 0px;
+    }
+    .ar_mainPage_bottom_persion img {
+        width: 75px;
+    }
+    .ar_mainPage_wrapper {
+        background-size: 100%;
+    }
+    .arPokeProfile_hpArea {
+        text-align: center;
+    }
+    .ar_pokeprofile_area {
+        background: url('../images/pokeProfile/pokeProfileBG.png') no-repeat scroll 0 0 / cover;
+    }
+    .ar_shop_area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_shop_area_right {
+        margin-top: 30px;
+    }
+    .ar_shop_nav_single {
+        text-align: center;
+    }
+    .ar_shop_nav_single a img {
+        width: 150px;
+    }
+    .ar_shop_nav_single p {
+        top: 16px;
+    }
+    .ar_shop_single_item > img {
+        width: 140px;
+    }
+    .ar_shop_in_cont img {
+        width: 55px;
+    }
+    .ar_shop_bottom_cont span {
+        bottom: 63px;
+    }
+    .ar_shop_in_cont p {
+        font-size: 14px;
+        top: 80px;
+    }
+    .ar_shop_bottom_cont p {
+        font-size: 10px;
+        bottom: 15px;
+        left: 34px;
+    }
+    .ar_single_item_table_work {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .ar_work_single_text.gold {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 30%;
+                flex: 0 0 30%;
+    }
+    .ar_work_single_text.check {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 30%;
+                flex: 0 0 30%;
+        text-align: right;
+    }
+    .ar_work_single_text {
+        padding: 10px 35px;
+    }
+    .ar_single_item_table_work {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_myProfile_single_item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .ar_myProfile_btnCont_single img {
+        width: 100%;
+        height: 60px;
+    }
+    .toggle-label.big_toggle_label.big_toggle_label {
+        width: 85%;
+        height: 46px;
+    }
+    .toggle-label .label.on.ar_on {
+        top: -18px;
+    }
+    .toggle-label .label.off.ar_off {
+        top: -18px;
+    }
+    .ar_myProfile_btnCont_text p {
+        top: 18px;
+    }
+    .ar_myProfile_sinle_title a {
+        font-size: 20px;
+    }
+    .ar_myProfile_sinle_title a img {
+        width: 20px;
+    }
 }
+
+
+
+
 
 
 
@@ -688,7 +1029,8 @@
         top: auto;
     }
     .ar_create_btn_area {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .ar_create_single_btn {
         margin-bottom: 15px;
@@ -710,8 +1052,127 @@
         width: 70px;
         margin-right: 5px;
     }
+    .ar_battle_btom_single img {
+        width: 70px;
+    }
+    .ar_battle_btom_single p {
+        font-size: 12px;
+        top: 7px;
+    }
+    .ar_battle_single_bottom img {
+        width: 95px;
+    }
+    .ar_battle_single_bottom p {
+        font-size: 11px;
+    }
+    .ar_battle_bottom_bottm {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .ar_battle_single_bottom {
+        margin-bottom: 10px;
+    }
+    .ar_battle_bottom_run img {
+        width: 40px;
+    }
+    .ar_mainPage_bottom_persion {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .ar_mainpage_area {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_mainpage_right_lavel {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+    .ar_mainpage_right_lavel_btnBig {
+        text-align: left;
+        display: inline;
+    }
+    .ar_mainpage_right_lavel_btnBig p {
+        left: -8px;
+        top: 5px;
+    }
+    .ar_mianpage_right_lavel_btn_area {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .ar_right_mainpage_social_icon_area {
+        margin-top: 20px;
+    }
+    .ar_right_mainpage_social_icon_area img {
+        margin-right: 22px;
+    }
+    .arPokeprofile_left_top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .arPokeprofile_right_top_btn.span {
+        margin-top: 20px;
+    }
+    .ar_pokeProfile_left_area {
+        padding: 20px 30px;
+    }
+    .ar_pokeProfile_single_wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .ar_pokeProfile_right_area {
+        padding: 15px 5px;
+    }
+    .ar_pokeProfile_right_top a {
+        font-size: 20px;
+    }
+    .arPokeProfile_skils_status {
+        padding-top: 10px;
+    }
+    .ar_shop_single_item > img {
+        width: 120px;
+    }
+    .ar_shop_bottom_cont span {
+        bottom: 54px;
+    }
+    .ar_shop_in_cont p {
+        font-size: 12px;
+        top: 78px;
+    }
+    .ar_shop_bottom_cont p {
+        font-size: 10px;
+        bottom: 12px;
+        left: 30px;
+    }
+    .ar_work_single_btn img {
+        width: 150px;
+        height: 55px;
+    }
+    .ar_work_btn_xont p {
+        top: 14px;
+        left: -2px;
+    }
+    .ar_work_single_btn {
+        margin: 0px 10px;
+    }
     
 }
+
+
+
+
+
+
+
 
 
 
@@ -803,6 +1264,14 @@
     .ar_creat_btn_cont {
         top: 10px;
         left: 30px;
+    }
+    .ar_work_single_btn img {
+        width: 110px;
+        height: 40px;
+    }
+    .ar_work_btn_xont p {
+        top: 10px;
+        font-size: 14px;
     }
     
 }
