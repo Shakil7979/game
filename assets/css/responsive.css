@@ -104,7 +104,7 @@
     .ar_raceInvite_banner_cont {
         top: 75px;
     }
-    .ar_raceinvoice_single_item > img {
+    .ar_raceinvoice_single_item > a img {
         width: 200px;
         height: 68px;
     }
@@ -211,7 +211,7 @@
         bottom: 65px;
         left: 80px;
     }
-    .ar_raceinvoice_single_item > img {
+    .ar_raceinvoice_single_item > a img {
         width: 160px;
         height: 55px;
     }
@@ -367,7 +367,7 @@
         left: 65px;
     }
     .ar_hospital_recovery img {
-        width: 55px;
+        width: 38px;
     }
     .ar_hospital_recovery {
         top: 58px;
@@ -380,7 +380,7 @@
         top: 40px;
         left: 100px;
     }
-    .ar_raceinvoice_single_item > img {
+    .ar_raceinvoice_single_item > a img {
         width: 115px;
         height: 40px;
     }
@@ -429,6 +429,11 @@
     .ar_stealBtn_area {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+    }
+    .ar_hotpita_btnCoin {
+        position: absolute;
+        top: 34%;
+        right: 23%;
     }
 }
 
@@ -568,6 +573,10 @@
     .ar_stealBtn_area > img {
         height: 175px;
     }
+    .ar_hospital_recovery {
+        top: 47px;
+        left: 37%;
+    }
 }
 
 
@@ -659,14 +668,14 @@
         width: 100%;
     }
     .ar_hospital_item_single {
-        bottom: 47px;
+        bottom: 40px;
         left: 32px;
     }
     .ar_hospital_item_single img {
-        width: 35px;
+        width: 36px;
     }
     .ar_hospital_recovery {
-        top: 50px;
+        top: 37px;
         left: 37%;
     }
     .ar_hotpita_btnCoin {
@@ -687,6 +696,15 @@
         position: absolute;
         left: -10px;
         top: auto;
+    }
+    .ar_hotpita_btnCoin {
+        top: 45%;
+    }
+    .ar_hospital_item_single {
+        bottom: 33px;
+    }
+    .ar_hospital_item_single img {
+        margin-right: 10px;
     }
     
 }
@@ -726,7 +744,7 @@
         bottom: 4px;
     }
     .ar_hospital_item_single {
-        bottom: 25px;
+        bottom: 34px;
         left: 32px;
     }
     .ar_hotpita_btnCoin {
@@ -736,7 +754,7 @@
         top: 28px;
     }
     .ar_hospital_item_single > img {
-        width: 25px;
+        width: 30px;
     }
     .ar_raceInvite_banner_cont {
         top: 18px;
@@ -799,6 +817,6 @@
         left: 18px;
     }
     .ar_hotpita_btnCoin {
-        top: 10%;
+        top: 48%;
     }
 }

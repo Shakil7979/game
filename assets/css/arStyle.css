@@ -762,14 +762,14 @@ a {
 }
 .ar_hotpita_btnCoin {
 	position: absolute;
-	top: 19%;
-	right: 26%;
+	top: 30%;
+	right: 23%;
 }
-.ar_hotpita_btnCoin img {
+.ar_hotpita_btnCoin a img {
 	width: 170px;
 	display: block;
 }
-.ar_hotpita_btnCoin img:last-child {
+.ar_hotpita_btnCoin a img:last-child {
 	margin-top: -50px;
 }
 .ar_hospital_item_single{
@@ -832,7 +832,7 @@ a {
 .ar_raceInvite_banner_cont h5 span{
     color: #ffb11b;
 }
-.ar_raceInvite_btn_area img{
+.ar_raceInvite_btn_area img.bgArea{
     width: 95%;
    
 }
@@ -841,7 +841,7 @@ a {
     margin-top: 20px;
     position: relative;
 }
-.ar_raceinvoice_single_item > img{
+.ar_raceinvoice_single_item a img{
     width: 100%;
 }
 .ar_raceInvoice_btn_single{
@@ -887,6 +887,7 @@ a {
     left: 0;
     right: 0;
     text-align: center;
+    cursor: pointer;
 }
 .ar_raceinvoice_radio .form-check-input:checked[type="radio"] {
 	background-image: url('../images/raceInvite/selected-icon.png');
@@ -957,6 +958,7 @@ a {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 .ar_steal_btn_single_item.after{
     position: relative;
@@ -994,6 +996,16 @@ a {
 	top: 90px;
 	left: 170px;
 }
+.arStealSingle input{
+    width: 300px;
+    background: #0C1945;
+    outline: none;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 28px;
+    color: #fff;
+}
+
 
 /*======================  End Race Invite area CSS ======================*/
 
@@ -1079,6 +1091,7 @@ a {
     font-size: 18px;
     font-weight: 600;
     color: #000000;
+    cursor: pointer;
 }
 .ar_create_single_btn{
     position: relative;
@@ -1097,6 +1110,7 @@ a {
     width: 70%;
     color: #000000;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -1159,7 +1173,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
 }
-.ar_pokedex_prcent_btn img{
+.ar_pokedex_prcent_btn a img{
     width: 120px;
     margin-bottom: 15px;
 }
@@ -1197,8 +1211,8 @@ a {
         flex-wrap: wrap;
     margin-top: 20px;
 }
-.arPokedex_wrapper_itam img {
-	width: 100px;
+.arPokedex_wrapper_itam a img {
+	width: 139px;
 	margin-right: 14px;
 	margin-bottom: 15px;
 	-webkit-box-flex: 0;
@@ -1406,7 +1420,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
 }
-.ar_battle_bottom_run img{
+.ar_battle_bottom_run a img{
     width: 50px;
 }
 .ar_battle_area_bottom{
@@ -1424,7 +1438,7 @@ a {
 .ar_battle_btom_single{
     margin-left: 5px;
 }
-.ar_battle_btom_single img{
+.ar_battle_btom_single a img{
     width: 100%;
 }
 .ar_battle_btom_single p{
@@ -1443,6 +1457,7 @@ a {
     right: 0;
     top: 18px;
     text-align: center;
+    cursor: pointer;
 }
 .ar_battle_bottom_bottm{
     display: -webkit-box;
@@ -1454,7 +1469,7 @@ a {
     margin-top: 20px;
     margin-right: 20px;
 }
-.ar_battle_single_bottom img{
+.ar_battle_single_bottom a img{
     width: 100%;
 }
 .ar_battle_single_bottom{
@@ -1470,6 +1485,7 @@ a {
     left: 0;
     right: 0;
     text-align: center;
+    cursor: pointer;
 }
 /*====================== End Battle CSS ======================*/
 
@@ -1550,7 +1566,7 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 45px;
+    padding-top: 120px;
     padding-bottom: 13px;
 }
 .arPokeProfile_skils_status img{
@@ -1650,6 +1666,46 @@ a {
 	margin-right: 2px;
 	padding-right: 30px;
 	padding-bottom: 100px;
+}
+.ar_pokeProfile_carousel a img{
+    width: 200px;
+    margin:20px auto;
+}
+.ar_pokeProfile_left_area{
+    position: relative;
+}
+.ar_pokeProfile_carousel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.ar_pokeProfile_carousel.owl-carousel .owl-item img {
+	display: block;
+    width: 150px;
+}
+
+
+.ar_pokeProfile_carousel.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+	color: #FFF;
+	text-decoration: none;
+}
+.ar_pokeProfile_carousel button:focus {
+	outline: none;
+}
+.ar_pokeProfile_carousel button img{
+    width: 40px;
+}
+.ar_pokeProfile_carousel .owl-next {
+	position: absolute;
+	right: 70px;
+	top: 37%;
+}
+.ar_pokeProfile_carousel .owl-prev {
+	position: absolute;
+	left: 70px;
+	top: 37%;
 }
 /*====================== End Poke Profile CSS ======================*/
 
@@ -1793,7 +1849,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-.ar_right_mainpage_social_icon_area img {
+.ar_right_mainpage_social_icon_area a img {
 	width: 55px;
 	height: 55px;
 }
@@ -1820,7 +1876,7 @@ a {
 .ar_mianpage_right_lavel_btn_area{
     margin-top: 100px;
 }
-.ar_mainpage_right_lavel_btnBig img{
+.ar_mainpage_right_lavel_btnBig a img{
     width: 170px;
     margin-top: 10px;
 }
@@ -1838,6 +1894,7 @@ a {
 	left: 61px;
 	right: 0px;
 	text-align: center;
+    cursor: pointer;
 }
 .ar_mainPage_bottom_area h3{
     color: #fbfaf7;
@@ -1857,7 +1914,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-.ar_mainPage_bottom_persion img{
+.ar_mainPage_bottom_persion a img{
     width: 200px;
 }
 
@@ -1895,8 +1952,9 @@ a {
 }
 .ar_shop_nav_single{
     position: relative;
+    z-index: 9999;
 }
-.ar_shop_nav_single p {
+.ar_shop_nav_single a p {
 	color: #ffffff;
 	font-weight: 700;
 	text-shadow: 2px 2px #0d0d0d;
@@ -1907,10 +1965,13 @@ a {
 	right: 0;
 	text-align: center;
     cursor: pointer;
+    display: inline;
+    z-index: 1;
 }
-.ar_shop_nav_single.topup p{
+.ar_shop_nav_single.topup a p{
     color: #000000;
 	text-shadow: 2px 2px transparent;
+    display: inline;
 }
 .ar_shop_item_wrapper{
     display: -webkit-box;
@@ -1935,6 +1996,7 @@ a {
     padding-right: 30px;
     padding-bottom: 100px;
 }
+
 .ar_shop_single_item{
     position: relative;
     margin-bottom: 20px;
@@ -2118,6 +2180,7 @@ a {
 	left: -35px;
 	right: 0;
 	text-align: center;
+    cursor: pointer;
 }
 /*====================== End  Work CSS ======================*/
 
@@ -2324,7 +2387,7 @@ a {
     text-align: center;
     position: relative;
 }
-.ar_myProfile_btn img{
+.ar_myProfile_btn a img{
     width: 125px; 
 }
 .ar_myProfile_btn_text p{
@@ -2336,8 +2399,9 @@ a {
     left: 0;
     right: 0;
     text-align: center;
+    cursor: pointer;
 }
-.ar_myProfile_btnCont_single img{
+.ar_myProfile_btnCont_single a img{
     width: 90%;
     text-align: center;
 }
@@ -2355,6 +2419,7 @@ a {
     left: 0;
     right: 0;
     text-align: center;
+    cursor: pointer;
 }
 
 

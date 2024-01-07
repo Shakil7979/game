@@ -1011,8 +1011,8 @@
 }
 .ar_hotpita_btnCoin {
 	position: absolute;
-	top: 19%;
-	right: 26%;
+	top: 30%;
+	right: 23%;
 }
 .ar_hotpita_btnCoin img {
 	width: 170px;
@@ -1081,7 +1081,7 @@
 .ar_raceInvite_banner_cont h5 span{
     color: #ffb11b;
 }
-.ar_raceInvite_btn_area img{
+.ar_raceInvite_btn_area img.bgArea{
     width: 95%;
    
 }
@@ -1090,7 +1090,7 @@
     margin-top: 20px;
     position: relative;
 }
-.ar_raceinvoice_single_item > img{
+.ar_raceinvoice_single_item > a img{
     width: 100%;
 }
 .ar_raceInvoice_btn_single{
@@ -1136,6 +1136,7 @@
     left: 0;
     right: 0;
     text-align: center;
+    cursor: pointer;
 }
 .ar_raceinvoice_radio .form-check-input:checked[type="radio"] {
 	background-image: url('../images/raceInvite/selected-icon.png');
@@ -1206,6 +1207,7 @@
     color: #000000;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 .ar_steal_btn_single_item.after{
     position: relative;

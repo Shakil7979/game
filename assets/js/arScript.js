@@ -65,5 +65,16 @@ $(document).ready(function(){
           }
       }
   })
+
+
+  // pokeProfile
+  $('.ar_pokeProfile_carousel').owlCarousel({
+    items:1,
+    dots:false,
+    loop:true,
+    margin:20,
+    nav:true,
+    navText:["<img src='assets/images/pokeProfile/leftarrow.png'>","<img src='assets/images/pokeProfile/rightarrow.png'>"]
+})
       
 })
