@@ -2455,3 +2455,231 @@ a {
 }
 /*====================== End My Profile CSS ======================*/
 
+
+
+
+
+
+
+
+/*====================== Start Player Profile CSS ======================*/
+.ar_playerProfile_area_section{
+    margin: 100px 0px;
+}
+.ar_playerProfile_area{
+    background: url('../images/playerProfile/bg2.png') no-repeat scroll 0 0 / 100% 100%;
+    /* padding: 30px; */
+}
+.ar_playerProfile_area{
+    display: flex;
+    justify-content: space-between;
+}
+/* .ar_playerProfile_area_item{
+    display: flex;
+    flex-wrap: wrap;
+   
+} */
+.arPlayer_left{
+    flex: 0 0 25%;
+}
+
+.arPlayerProfle_chacter_item a img{
+    width: 120px;
+}
+
+.ar_playerProfile_cha_text p span{
+    color: #67dd39;
+}
+.arPlayerProfle_chacter_item{
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.ar_playerProfile_cha_text p{
+    color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.arPlayerProfile_left_area{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ar_playerProfile_middle_top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ar_play_middle_top_tag a img{
+    width: 100%;
+}
+.ar_play_middle_top_tag{
+    margin-left: 10px;
+    position: relative;
+}
+.ar_play_middle_top_tagText p{
+    color: #050505;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.ar_playProfile_middle_area{
+    position: relative;
+    height: 100%;
+    padding-right: 50px;
+}
+.ar_playerMiddle_bottom_area{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.arPlayer_middle{
+    flex: 0 0 35%;
+}
+.ar_playerMiddle_bottom_single_item{
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+.ar_playerMiddle_bottom_single_item a img {
+	width: 300px;
+}
+.ar_playerMiddle_bottom_single_itemTexy p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+.ar_playerMiddle_bottom_single_itemTexy p:first-child span{
+    color: #fa2c2c;
+}
+.ar_playerMiddle_bottom_single_itemTexy p:last-child span{
+    color: #60cd35;
+}
+.ar_playerMiddle_bottom_single_itemTexy p:last-child{
+    font-weight: 400;
+}
+.ar_playerMiddle_bottom_single_itemTexy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0px 15px;
+}
+.ar_playerMiddle_bottom_single_itemTexy.last p{
+    text-align: center;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ar_playerPorfile_right_top{
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    margin: auto;
+}
+.ar_playerProfile_top_btn{
+    position: relative;
+}
+.arPlyaderProfile_tab_text p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.arPlyaderProfile_tab_text.last p{
+    color: #575757;
+}
+.ar_playerProfile_top_btn.last{
+    margin-right: -2px;
+}
+.ar_playerProfile_tabArea_wrapper{
+    background: url('../images/playerProfile/btnBG.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 30px;
+    width: 340px;
+    margin: auto;
+}
+.ar_playerTab_title a{
+    color: #050505;
+    font-size: 26px;
+    font-weight: 700;
+}
+.ar_playerTab_title a img{
+    width: 30px;
+    margin-right: 10px;
+}
+.ar_Playyer_tab_item_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.ar_player_right{
+    flex: 0 0 31%;
+}
+.ar_Playyer_tab_item_wrapper a img {
+	width: 75px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.ar_playerTab_title.last{
+    margin-top: 30px;
+}
+.ar_playerProfile_tab_area {
+	height: 400px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+	margin-right: -10px;
+	/* padding-right: 30px; */
+	padding-bottom: 100px;
+}
+.ar_player_right{
+    position: relative;
+}
+.ar_right_minus a img{
+    width: 30px;
+}
+.ar_right_minus {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+.arPlayer_middle{
+    padding: 30px 30px 0px 30px;
+}
+.arPlayer_left{
+    padding: 30px 0px 30px 30px;
+}
+.ar_player_right{
+    background: url('../images/playerProfile/btnBG.png') no-repeat scroll 0 0 / 100% 100%;
+    padding: 20px;
+}
+/*====================== End Player Profile CSS ======================*/
+
